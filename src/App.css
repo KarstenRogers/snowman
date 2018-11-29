@@ -1,0 +1,41 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #86adf0;
+  padding-bottom: 200000px;
+}
+html,
+body {
+  margin: 0;
+  height: 100%vh;
+  overflow: hidden;
+}
+
+.header {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 3rem;
+  text-align: center;
+  color: whitesmoke;
+  margin-bottom: 3rem;
+}
+img {
+  width: 300px;
+  border-radius: 20%;
+}
+.randomWord {
+  display: flex;
+  list-style: none;
+  color: whitesmoke;
+  font-size: 3rem;
+}
+.randomWord li {
+  justify-content: space-between;
+  margin-right: 10px;
+}
+.letterButtons {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: space-around;
+}
